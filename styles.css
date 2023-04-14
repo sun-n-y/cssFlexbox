@@ -1,37 +1,33 @@
 /* cssFlexbox: */
 
-.body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: #f3f3f3;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
 }
 
-.container {
-  border: 5px solid red;
+.hero {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  min-height: 100vh;
+  background: url(https://images.pexels.com/photos/8451490/pexels-photo-8451490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.box {
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: #f3f3f3;
+.nav-links {
+  display: flex;
+  gap: 0 1rem;
 }
-
-.box-1 {
-  background: #581f18;
+.nav-link {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
-
-.box-2 {
-  background: #f0a202;
-}
-
-.box-3 {
-  background: #d95d39;
-}
-
-.box-4 {
-  background: #202c59;
-}
-
-.box-5 {
-  background: #51cb20;
+.logo {
+  font-size: 3rem;
 }
