@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="./styles.css" />
     <style>
       .container {
+        height: 500px;
         display: flex;
-        flex-direction: column;
-      }
-      .box-1 {
-        order: 2;
-      }
-      .box-2 {
-        order: 1;
+        align-items: flex-end;
       }
       .box-5 {
-        order: -1;
+        align-self: stretch;
+      }
+      .box-2 {
+        align-self: center;
+      }
+      .box-1 {
+        align-self: flex-start;
       }
     </style>
   </head>
